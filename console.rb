@@ -25,7 +25,8 @@ star2.save()
 movie1 = Movie.new(
   {
     'title' => 'Once Upon a Time in Hollywood',
-    'genre' => 'Tarantino'
+    'genre' => 'Tarantino',
+    'budget' => '200000000'
   }
 )
 
@@ -34,7 +35,8 @@ movie1.save()
 movie2 = Movie.new(
   {
     'title' => "Mr and Mrs Smith",
-    'genre' => "Action"
+    'genre' => "Action",
+    'budget' => '100000000'
   }
 )
 

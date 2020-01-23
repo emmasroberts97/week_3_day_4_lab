@@ -5,10 +5,10 @@ class Casting
   attr_accessor :movie_id, :star_id, :fee, :id
 
   def initialize(options)
-    @id = options['id']
+    @id = options['id'].to_i
     @movie_id = options['movie_id']
     @star_id = options['star_id']
-    @fee = options['fee']
+    @fee = options['fee'].to_i
   end
 
   def save() #CREATE
